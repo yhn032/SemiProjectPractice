@@ -26,6 +26,8 @@ public class PhotoModifyFormAction extends HttpServlet {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
+		// /photo/modify_form.do?p_idx=44
+		
 		//1. 파라미터 수신
 		int p_idx = Integer.parseInt(request.getParameter("p_idx"));
 		
